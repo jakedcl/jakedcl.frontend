@@ -82,7 +82,7 @@ export default function MainPage() {
             {
                 title: 'adirondack high peaks of new york',
                 description: '3D Map - bannquet.com.',
-                link: '/maps/adk',
+                link: 'https://bannquet.com/adkmap',
             },
         ],
         blogPosts: blogPosts
@@ -136,7 +136,13 @@ export default function MainPage() {
                 <Title>📍 interactive maps</Title>
                 <ResponsivePreviewGrid>
                     {content.maps.map((item, index) => (
-                        <MyLink key={index} to={item.link}>
+                        <MyLink
+                            key={index}
+                            href={item.link}
+                            isExternal
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             <Card>
                                 <CardTitle>{item.title}</CardTitle>
                                 <CardDescription>{item.description}</CardDescription>
