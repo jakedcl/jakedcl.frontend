@@ -70,12 +70,12 @@ export default function MainPage() {
             {
                 title: 'drewdella.com',
                 description: 'parody of google.com for rapper drew della',
-                link: 'https://www.drewdella.com',
+                link: 'https://drewdella.com',
             },
             {
                 title: 'jasiahpowers.com',
                 description: 'portfolio site for creative jasiah powers',
-                link: 'https://www.jasiahpowers.com',
+                link: 'https://jasiahpowers.com',
             },
         ],
         maps: [
