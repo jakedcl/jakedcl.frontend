@@ -81,7 +81,7 @@ export default function MainPage() {
         maps: [
             {
                 title: 'adirondack high peaks of new york',
-                description: 'explore the adirondack mountains with detailed markers for peaks, trails, campsites, and amenities.',
+                description: '3D Map - bannquet.com.',
                 link: '/maps/adk',
             },
         ],
