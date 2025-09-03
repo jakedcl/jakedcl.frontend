@@ -63,9 +63,9 @@ export default function MainPage() {
         ],
         webProjects: [
             {
-                title: 'ez-pass data visualizer',
-                description: 'understand your ez-pass tolls and costs',
-                link: 'https://ezpny.vercel.app',
+                title: 'bannquet.com',
+                description: 'portfolio site for web dev creative agency',
+                link: 'https://bannquet.com',
             },
             {
                 title: 'drewdella.com',
@@ -73,9 +73,19 @@ export default function MainPage() {
                 link: 'https://drewdella.com',
             },
             {
+                title: 'metrotapes.com',
+                description: 'music label and creative collective',
+                link: 'https://metrotapes.com',
+            },
+            {
                 title: 'jasiahpowers.com',
                 description: 'portfolio site for creative jasiah powers',
                 link: 'https://jasiahpowers.com',
+            },
+            {
+                title: 'ez-pass data visualizer',
+                description: 'understand your ez-pass tolls and costs',
+                link: 'https://ezpny.vercel.app',
             },
         ],
         maps: [
